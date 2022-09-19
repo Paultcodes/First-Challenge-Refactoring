@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-/* Took the image out of css and added to the html so that it would be compatible with screen reader */
+/* Horiseon homepage image */
 .hero img { 
     height: 800px;
     width: 100%;
@@ -84,14 +84,14 @@ p {
     background-color: #2589bd;
 }
 
-/* I erased some DRY code and grouped the benefits section into one class */
-.benefit-cost {
+/* List of Horiseon benifits homepage */
+.benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-/* erased some DRY code and grouped the benefits h3 section into one class */
+/* h3 elements in benifits section on Horiseon homepage */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -105,8 +105,8 @@ p {
 }
 
 
-/* erased some DRY code and grouped the benefits  section into one class */
-.one {
+/* Content section Horiseon homepage */
+.content-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -116,14 +116,14 @@ p {
 }
 
 
-/* I erased some DRY code and grouped the benefits  section into one class */
-.one img {
+/* img elements in content section on Horiseon homepage */
+.content-section img {
     max-height: 200px;
 }
 
 
-/* I erased some DRY code and grouped the benefits  section into one class */
-.one h2 {
+/* h2 elements in content section on Horiseon homepage */
+.content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
